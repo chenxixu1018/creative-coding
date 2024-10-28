@@ -1,0 +1,88 @@
+/*nav*/
+nav {
+    background-color: #000406; 
+    padding: 10px;
+    z-index: 10;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/*contact*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+  
+  .overlay {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .thank-text {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    margin-top: 10px;
+    align-self: flex-start; 
+    text-align: center;
+    width: 100%; 
+  }
+  
+  /* Contact info styling */
+  .contact-info {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .contact-info a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
